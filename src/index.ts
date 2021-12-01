@@ -6,7 +6,7 @@ const modules = [
     'bootstrap/init-sentry',
 
     // this can be in any order
-    'bootstrap/connect-orm',
+    //'bootstrap/connect-orm',
 
     // this should be last
     'app/routes',
@@ -29,4 +29,4 @@ process.on('unhandledRejection', handleCrash);
 
 ignite().catch(handleCrash);
 
-export default app
+export default app 

@@ -7,7 +7,7 @@ interface IServerConfig {
 
 const serverConfig: IServerConfig = {
     host: process.env.SERVER_HOST || '127.0.0.1',
-    port: normalizePort(process.env.SERVER_PORT) || 3000,
+    port: normalizePort(process.env.SERVER_PORT) || 4000,
 };
 
 export default serverConfig;
